@@ -5,7 +5,7 @@ class MainPageLocators:
     COOKIE_CONFIRM_BUTTON = [By.XPATH, "//button[@id='rcc-confirm-button']"]  # кн "да все привыкли"
     SCOOTER_IMG = [By.XPATH, "//img[@src='/assets/scooter.png']"]   # картинка самоката
     HEADER_ORDER_BUTTON = [By.XPATH, "//button[@class='Button_Button__ra12g']"]  # общ # кн "Заказать" в шапке
-    FOOTER_ORDER_BUTTON = [By.XPATH, "//button[contains(@class, 'Button_Middle__1CSJM')]"]  # общ # кн "Заказать" в футере
+    FOOTER_ORDER_BUTTON = [By.XPATH, "//button[contains(@class, 'Button_Middle')]"]  # общ # кн "Заказать" в футере
     LOGO_SCOOTER = [By.XPATH, "//*[@alt='Scooter']"]   # лого самокат
     LOGO_YANDEX = [By.XPATH, "//*[@alt='Yandex']"]   # лого яндекс
     INPUT_DZEN = [By.XPATH, "//input[@aria-label='Запрос']"]   # поиск строка яндекса

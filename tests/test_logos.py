@@ -1,19 +1,7 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.common.exceptions import NoSuchElementException
-import allure
 
+import allure
 from locators.main_page_locators import MainPageLocators
-from locators.register_form_locators import RegisterFormLocators
-from locators.rent_page_locators import RentPageLocators
-from locators.check_status_locators import CheckStatusLocators
 from pages.main_page import MainPage
-from pages.register_form_page import RegisterForm
-from pages.rent_page import RentPage
-from pages.check_status_page import CheckStatusPage
 
 
 class TestLogos:
